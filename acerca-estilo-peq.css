@@ -1,0 +1,116 @@
+@font-face{
+  src: url(fuentes/Rolling-Bold.ttf);
+  font-family: roll;
+}
+@font-face {
+  src: url(fuentes/Caveat-VariableFont_wght.ttf);
+  font-family: Caveat;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: linear-gradient(to right, #1D3557 , #370617);
+}
+.menu{
+  width: auto;
+  height: 100px;
+  background-color: #d90429 ;
+  padding: 10px 45px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+ul li{
+  display: inline-block;
+  list-style: none;
+  line-height: 100px;
+
+}
+ul li a {
+  text-decoration: none;
+  color: #001233;
+  font-size: 28px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 0 18.55px;
+  display: block;
+  border-radius: 35px;
+
+
+}
+ul li a:hover {
+  box-shadow: 0 0 10px #293241, 0 0 40px #293241, 0 0 80px #293241 ;
+  transition-delay: 0.01s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  background-color: #1D3557;
+  color: #fff;
+}
+/*
+ul li{
+  display: inline-block;
+  list-style: none;
+  line-height: 100px;
+
+}
+ul li a {
+  text-decoration: none;
+  color: #001233;
+  font-size: 28px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 0 18.55px;
+  display: block;
+  border-radius: 35px;
+}
+ul li a:hover {
+  box-shadow: 0 0 10px #293241, 0 0 40px #293241, 0 0 80px #293241 ;
+  transition-delay: 0.01s;
+  transition-duration: 0.5s;
+  background-color: #1D3557;
+  color: #fff;
+}*/
+.cuerpo{
+  background-image: linear-gradient(to right, #03071e , #d00000);
+  width: 50%;
+  margin: 90px auto;
+  padding: 25px;
+}
+#sec{
+  background-color: #f8edeb;
+
+}
+.art{
+  padding: 6px 15px;
+
+}
+.art h2{
+  text-align: center;
+  font-size: 50px;
+}
+#pie{
+  padding-top: 11px;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  height: 80px;
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+
+}
+#pie a{
+  display: inline-block;
+  text-align: center;
+  color: white;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  padding: 8px 5px;
+  text-decoration: none;
+
+}
