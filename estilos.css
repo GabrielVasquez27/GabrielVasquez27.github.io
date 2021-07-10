@@ -182,10 +182,25 @@
 
   @media all and (max-width: 600px){
     body{
-      background-image: linear-gradient(to right, #480ca8 , #081c15);
+    /*  background-image: linear-gradient(to right, #480ca8 , #081c15);*/
       margin: 0;
       padding: 0;
     }
+    #bbb{
+
+      animation: col 3s  infinite alternate;
+      margin: 0;
+      padding: 0;
+
+    }
+    @keyframes col {
+    from{background-color: #001233}
+    to{background-color: #002855}
+    }
+    /*@keyframes col {
+    from{background-color: red}
+    to{background-color: yellow}
+    }*/
     .menu{
       background-color: #001233;
       padding: 0;
