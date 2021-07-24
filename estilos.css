@@ -11,18 +11,34 @@
     padding: 0;
   }
   body{
-    background-image: linear-gradient(to right, #1D3557 , #457B9D);
+    /*background-image: linear-gradient(to right, #1D3557 , #457B9D);*/
+    background-color: #02182B
   }
 
   .menu{
     width: auto;
     height: 100px;
-    background-color: #A8DADC ;
-    padding: 10px 45px;
+    background-color: #FAA613 ;
+    padding: 10px 56px 10px 45px;
     text-align: left;
     display: flex;
     justify-content: space-between;
 
+  }
+  #co{
+
+    line-height: 52px;
+    text-decoration: none;
+    color: #001233;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 0 18.55px;
+    display: block;
+    border-radius: 50px;
+    background-color: #D8D8F6;
+    height: 50px;
+    margin: 25px;
   }
 
   ul li{
@@ -92,15 +108,19 @@
     border-radius: 35px;
     text-align: center;
     display: block;
-    background-color: #edf2fb;
+    /*background-color: #0E79B2;*/
     text-decoration: none;
     color: black;
     line-height: 70px;
     animation: mymove 0.75s infinite alternate ;
   }
   .text:hover .boton{
-    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7 ;
-    transition-delay: 100ms;
+  /*  box-shadow: 0 0 10px #D02530, 0 0 40px #D02530, 0 0 80px #D02530 ;*/
+    opacity: 1;
+  /*  text-shadow: 2px 0 0 #0E79B2, -2px 0 0 #0E79B2, 0 2px 0 #0E79B2, 0 -2px 0 #0E79B2,
+        1px 1px #0E79B2, -1px -1px 0 #0E79B2, 1px -1px 0 #0E79B2, -1px 1px 0 #0E79B2;*/
+         text-shadow: 2px 0 0 #ffffff;
+    transition-delay: 85ms;
     animation-play-state: paused;
   }
     /*@keyframes mymove {
@@ -125,7 +145,7 @@
   .arti{
     display: block;
     width: 95%;
-    background-color: #adb5bd;
+    background-color: #D8D8F6;
     align-content: center;
     margin: auto;
     display: inline-flex;
@@ -146,9 +166,10 @@
     border-radius: 25px 15px;
     text-align: center;
     display: block;
-    background-color: #edf2fb;
+    background-color: #FAA613;
     text-decoration: none;
-    color: black;
+    color: #ffffff;
+    outline-color: black;
   }
   .sec{
     padding-left: -30px;
@@ -315,6 +336,20 @@
       padding: 8px 5px;
       text-decoration: none;
     }*/
+    #co{
+      line-height: 52px;
+      text-decoration: none;
+      color: #001233;
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      padding: 0 18.55px;
+      display: block;
+      border-radius: 50px;
+      background-color: #D8D8F6;
+      height: 50px;
+      margin: 25px;
+    }
  }
  @media all and (min-width: 450px) and (max-width: 600px){
    .menu ul{
